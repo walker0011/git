@@ -2,8 +2,8 @@
 
 ​	获取git仓库有两种方式：
 
-		- 将尚未进行版本控制的本地目录转化为Git仓库
-		- 从其他服务器 clone一个已经存在的Git仓库（这里我们使用Github作为clone的仓库）
+- 将尚未进行版本控制的本地目录转化为Git仓库
+- 从其他服务器 clone一个已经存在的Git仓库（这里我们使用Github作为clone的仓库）
 
 **1.1从已存在目录中初始化**
 
@@ -35,16 +35,13 @@ $ git clone link [自定义名称]
 
 ​	**(1)检查当前文件状态**
 
-    ```
-$ git status
-$ git status -s(--short) 
-    ```
-
+    $ git status
+    $ git status -s(--short) 
 ​	第二种方式具体细节可以查看[状态简览](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93)
 
 **(2)创建文件并跟踪新文件**
 
-	- 首先创建新文件README.md,通过git status查看仓库的状态
+- 首先创建新文件README.md,通过git status查看仓库的状态
 
 ```
 On branch master
@@ -55,7 +52,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-	- 追踪文件
+- 追踪文件
 
 ```
 $ git add README.md
@@ -67,7 +64,7 @@ Changes to be committed:
     new file:   README
 ```
 
-	- 修改文件内容并暂存
+- 修改文件内容并暂存
 
 ```
 修改文件内容后
